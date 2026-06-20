@@ -1,33 +1,210 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Моя первая страница</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="icons8.ico">
-  </head>
-  <body></body>
-</html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="KiMa is an ISTQB Certified QA Engineer with 3+ years of experience in functional testing, REST API testing, test automation, Playwright JS/TS, SQL, Git, Kubernetes, Jira, and Chrome DevTools.">
+  <title>KiMa — QA Engineer | ISTQB Certified Tester | Playwright JS/TS</title>
+  <link rel="icon" href="icons8.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: '#111827',
+            brand: {
+              50: '#f5f3ff',
+              100: '#ede9fe',
+              500: '#7c3aed',
+              600: '#6d28d9',
+              700: '#5b21b6'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif']
+          },
+          boxShadow: {
+            soft: '0 18px 45px rgba(17, 24, 39, 0.08)'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="min-h-screen bg-white font-sans text-ink">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-10 flex flex-col lg:flex-row gap-6 lg:gap-8">
+    <aside class="w-full lg:w-72 shrink-0 space-y-6">
+      <section class="rounded-3xl border-2 border-dashed border-brand-100 p-5 text-center bg-white">
+        <p class="text-brand-700 font-bold">Contact</p>
+        <p class="text-sm text-ink mt-1">GitHub · Email · Telegram</p>
+        <a href="https://github.com/KiMa30" target="_blank" rel="noopener noreferrer"
+           class="inline-block mt-4 px-5 py-2.5 bg-brand-600 text-white text-sm font-semibold rounded-full hover:bg-brand-700 transition-colors">
+          GitHub
+        </a>
+      </section>
 
-<main>
-    <h1>KiMa</h1>
-    <h2>Manual QA and a bit AQA:-)</h2>
-  
-    <hr>
-  
-    <section>
-      <h2>Навыки:</h2>
-      <ul>
-        <li>Функциональное тестирование</li>
-        <li>Тест-кейсы, чеклисты в Jira</li>
-        <li>Использование инструментов: Dev Tools, Postman, Git, Jaeger, DB's GUI App - DBeaver, SQL, k8s, VS Code, JS/TS, playwright, etc. </li>
-      </ul>
-    </section>
-  
-    <section>
-      <h2>О себе</h2>
-      <p>
-        Много лет работал в сфере, не связанной с IT. Совершил переход в другую
-        профессию, чему очень рад). После первых успехов продолжаю получать новые знания и совершенствовать навыки.
-      </p>
-    </section>
-  </main>
+      <section class="bg-white rounded-3xl p-5 shadow-soft border border-brand-50">
+        <h2 class="text-sm font-bold text-ink mb-4">Quick links</h2>
+        <ul class="space-y-3 text-sm">
+          <li>
+            <a href="https://github.com/KiMa30" target="_blank" rel="noopener noreferrer"
+               class="flex items-center gap-3 hover:text-brand-700 transition-colors">
+              <span class="w-8 h-8 rounded-full bg-brand-50 text-brand-700 flex items-center justify-center text-xs font-bold">GH</span>
+              GitHub
+            </a>
+          </li>
+          <li>
+            <a href="#skills" class="flex items-center gap-3 hover:text-brand-700 transition-colors">
+              <span class="w-8 h-8 rounded-full bg-brand-50 text-brand-700 flex items-center justify-center text-xs font-bold">QA</span>
+              Skills
+            </a>
+          </li>
+          <li>
+            <a href="#about" class="flex items-center gap-3 hover:text-brand-700 transition-colors">
+              <span class="w-8 h-8 rounded-full bg-brand-50 text-brand-700 flex items-center justify-center text-xs font-bold">CV</span>
+              About
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="bg-white rounded-3xl p-5 shadow-soft border border-brand-50 hidden lg:block">
+        <h2 class="text-sm font-bold text-ink mb-4">Toolbox</h2>
+        <ul class="space-y-2 text-sm text-ink">
+          <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-brand-600"></span>Playwright JS/TS</li>
+          <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-brand-600"></span>Postman · REST APIs</li>
+          <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-brand-600"></span>Jira · Test cases</li>
+          <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-brand-600"></span>SQL · DBeaver</li>
+          <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-brand-600"></span>Git · Kubernetes · Jaeger</li>
+        </ul>
+      </section>
+    </aside>
+
+    <main class="flex-1 min-w-0 space-y-8">
+      <section id="home" class="pt-1">
+        <div class="mb-5 max-w-4xl">
+          <p class="text-sm font-bold uppercase tracking-[0.22em] text-brand-700">QA Engineer · ISTQB Certified Tester</p>
+          <h1 class="mt-3 text-3xl sm:text-5xl font-extrabold tracking-tight text-ink">KiMa</h1>
+          <p class="text-lg sm:text-xl text-ink mt-3 leading-relaxed">
+            QA Engineer with 3+ years of experience in functional testing, REST API testing,
+            test documentation, and test automation. I combine product-minded manual QA with
+            Playwright JS/TS, SQL, Git, Kubernetes, Jira, and Chrome DevTools to help teams ship
+            reliable software faster.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-3 sm:gap-4">
+          <article class="bg-brand-50 rounded-3xl p-5 border border-brand-100">
+            <p class="font-bold text-ink">Functional Testing</p>
+            <p class="text-sm text-brand-700 mt-2">Smoke · Regression · Web</p>
+          </article>
+          <article class="bg-brand-50 rounded-3xl p-5 border border-brand-100">
+            <p class="font-bold text-ink">API Testing</p>
+            <p class="text-sm text-brand-700 mt-2">REST APIs · Postman</p>
+          </article>
+          <article class="bg-brand-50 rounded-3xl p-5 border border-brand-100">
+            <p class="font-bold text-ink">Test Automation</p>
+            <p class="text-sm text-brand-700 mt-2">Playwright · JavaScript · TypeScript</p>
+          </article>
+          <article class="bg-brand-50 rounded-3xl p-5 border border-brand-100">
+            <p class="font-bold text-ink">Delivery Tools</p>
+            <p class="text-sm text-brand-700 mt-2">Jira · Git · Kubernetes · Jaeger</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="bg-white rounded-[2rem] p-5 sm:p-7 shadow-soft border border-brand-50">
+        <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-3 mb-5">
+          <div>
+            <p class="text-sm font-bold uppercase tracking-[0.2em] text-brand-700">Core skills</p>
+            <h2 class="text-2xl font-extrabold text-ink mt-1">Skills</h2>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div class="flex items-center gap-3 p-3 rounded-2xl bg-brand-50">
+            <span class="w-10 h-10 rounded-full bg-white text-brand-700 flex items-center justify-center shrink-0 text-xs font-extrabold">QA</span>
+            <span class="flex-1 text-sm sm:text-base">Quality Assurance, functional, smoke, and regression testing</span>
+            <span class="text-brand-600 text-sm font-bold">*</span>
+          </div>
+
+          <div class="flex items-center gap-3 p-3 rounded-2xl bg-brand-50">
+            <span class="w-10 h-10 rounded-full bg-white text-brand-700 flex items-center justify-center shrink-0 text-xs font-extrabold">TC</span>
+            <span class="flex-1 text-sm sm:text-base">Test cases, checklists, and bug reports in Jira</span>
+            <span class="text-brand-600 text-sm font-bold">*</span>
+          </div>
+
+          <div class="flex items-center gap-3 p-3 rounded-2xl bg-brand-50">
+            <span class="w-10 h-10 rounded-full bg-white text-brand-700 flex items-center justify-center shrink-0 text-xs font-extrabold">AQA</span>
+            <span class="flex-1 text-sm sm:text-base">Playwright JS/TS test automation</span>
+            <span class="text-brand-600 text-sm font-bold">*</span>
+          </div>
+
+          <div class="flex items-center gap-3 p-3 rounded-2xl bg-brand-50">
+            <span class="w-10 h-10 rounded-full bg-white text-brand-700 flex items-center justify-center shrink-0 text-xs font-extrabold">API</span>
+            <span class="flex-1 text-sm sm:text-base">REST API testing with Postman</span>
+            <span class="text-brand-600 text-sm font-bold">*</span>
+          </div>
+
+          <div class="flex items-center gap-3 p-3 rounded-2xl bg-brand-50">
+            <span class="w-10 h-10 rounded-full bg-white text-brand-700 flex items-center justify-center shrink-0 text-xs font-extrabold">DEV</span>
+            <span class="flex-1 text-sm sm:text-base">Chrome DevTools and frontend defect analysis</span>
+            <span class="text-brand-600 text-sm font-bold">*</span>
+          </div>
+
+          <div class="flex items-center gap-3 p-3 rounded-2xl bg-brand-50">
+            <span class="w-10 h-10 rounded-full bg-white text-brand-700 flex items-center justify-center shrink-0 text-xs font-extrabold">SQL</span>
+            <span class="flex-1 text-sm sm:text-base">SQL queries, DBeaver, and data validation</span>
+            <span class="text-brand-600 text-sm font-bold">*</span>
+          </div>
+
+          <div class="flex items-center gap-3 p-3 rounded-2xl bg-brand-50">
+            <span class="w-10 h-10 rounded-full bg-white text-brand-700 flex items-center justify-center shrink-0 text-xs font-extrabold">OPS</span>
+            <span class="flex-1 text-sm sm:text-base">Git, Kubernetes, logs, and Jaeger traces</span>
+            <span class="text-brand-600 text-sm font-bold">*</span>
+          </div>
+
+          <div class="flex items-center gap-3 p-3 rounded-2xl bg-brand-50">
+            <span class="w-10 h-10 rounded-full bg-white text-brand-700 flex items-center justify-center shrink-0 text-xs font-extrabold">CI</span>
+            <span class="flex-1 text-sm sm:text-base">JavaScript QA, CI/CD, SDLC, and STLC</span>
+            <span class="text-brand-600 text-sm font-bold">*</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <p class="text-sm font-bold uppercase tracking-[0.2em] text-brand-700">About</p>
+        <h2 class="text-2xl font-extrabold text-ink mt-1 mb-4">About me</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <article class="bg-brand-50 rounded-3xl p-5 border border-brand-100">
+            <p class="font-bold text-ink mb-2">QA background</p>
+            <p class="text-sm text-ink leading-relaxed">
+              ISTQB Certified Tester and QA Engineer at CarPrice with 3+ years of experience.
+              I create clear test documentation, validate requirements, run functional and API
+              testing, investigate defects with DevTools, SQL, logs, and traces, and communicate
+              issues in a way that helps engineering teams resolve them quickly.
+            </p>
+          </article>
+          <article class="bg-brand-50 rounded-3xl p-5 border border-brand-100">
+            <p class="font-bold text-ink mb-2">Business and automation mindset</p>
+            <p class="text-sm text-ink leading-relaxed">
+              My previous FMCG Retail experience helps me evaluate technical risks from a business
+              perspective. I continuously grow in automation through Playwright JS/TS, JavaScript QA,
+              REST APIs, SQL, Git, Kubernetes, and CI/CD practices learned through OTUS and Yandex
+              EdTech programs.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer class="max-w-7xl mx-auto px-4 sm:px-6 py-6 text-center text-sm text-ink">
+    <p>© 2026 KiMa · QA Engineer · ISTQB Certified Tester</p>
+  </footer>
+</body>
+</html>
